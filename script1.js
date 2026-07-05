@@ -4,12 +4,12 @@ function closeAllSubMenus() {
     const mb2 = document.getElementById('mb2');
     const mb = document.getElementById('mb');
     if (mb2) {
-        mb2.innerText = 'Reports';
+        mb2.innerText = '보고서';
         mb2.style.backgroundColor = '';
         mb2.style.color = '';
     }
     if (mb) {
-        mb.innerText = 'Contact';
+        mb.innerText = '문의하기';
         mb.style.backgroundColor = '';
         mb.style.color = '';
     }
@@ -22,7 +22,7 @@ function toggleMenu3() {
         closeAllSubMenus();
     }
     menu.classList.toggle('show-menu');
-    toggleButtonText(button,'☰ Menu');
+    toggleButtonText(button,'☰ 메뉴');
 }
 function toggleMenu4() {
     event.preventDefault(); 
@@ -47,7 +47,7 @@ function toggleMenu2() {
         button.style.color = '#ffffff';
     } else {
         menu.classList.remove('show-menu');
-        button.innerText = 'Reports';
+        button.innerText = '보고서';
         button.style.backgroundColor = '';
         button.style.color = '';
     }
@@ -65,7 +65,7 @@ function toggleMenu() {
         button.style.color = '#ffffff';
     } else {
         menu.classList.remove('show-menu');
-        button.innerText = 'Contact';
+        button.innerText = '문의하기';
         button.style.backgroundColor = '';
         button.style.color = '';
     }
@@ -83,7 +83,7 @@ window.onclick = function(event) {
         const menu3 = document.querySelector('.mc3');
         if (menu3) menu3.classList.remove('show-menu');
         const button3 = document.getElementById('mb3');
-        if (button3) button3.innerText = '☰ Menu';
+        if (button3) button3.innerText = '☰ 메뉴';
         closeAllSubMenus();
 document.addEventListener("DOMContentLoaded", function() {
     const popup = document.getElementById("pop");
