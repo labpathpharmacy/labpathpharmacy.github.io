@@ -8,6 +8,7 @@ Welcome to the official repository of SED Science Club! LabPath a student-led or
 
 ## About Website/ Detail About Club's Activity
  🏠 Home: Introduction to our club's goals, vision, and core values. The Activities/Project, Rule, etc. is also introduced
+ <br>
  📝 [LabPath Report 1](https://labpathpharmacy.github.io/LR1.html)
  <br>
  📝 [LabPath Report 2](https://labpathpharmacy.github.io/LR2.html)
