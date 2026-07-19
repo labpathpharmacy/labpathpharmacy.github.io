@@ -24,5 +24,5 @@ Welcome to the official repository of SED Science Club! LabPath a student-led or
  <br>
  📧 [Request Collaboration](https://forms.gle/pVGjv6bArup8sfQZ7)
  <br>
- 🔗 [👉 Live Website 👈](https://labpathpharmacy.github.io)
+ 🔗 [👉 Click Here to See Live Website 👈](https://labpathpharmacy.github.io)
 </div>
