@@ -266,11 +266,7 @@ p{
     border-radius: 20px;
     display:flex; justify-content:center; align-items: center;
 }
-.lang:hover {
-    background-color: #a3ccc4;
-    color:#727272
-}
-.end:hover {
+.lang:hover, .end:hover {
     background-color: #a3ccc4;
     color:#727272
 }
