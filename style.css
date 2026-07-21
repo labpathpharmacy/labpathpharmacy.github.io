@@ -105,6 +105,10 @@ header .container {
     color: #666;
     font-size: 0.95rem;
 }
+.end:hover {
+    background-color: #727272;
+    color: white;
+}
 footer {
     background: #a3ccc4;
     color: #fff;
@@ -270,8 +274,4 @@ p{
 .lang:hover {
     background-color: #a3ccc4;
     color:#727272
-}
-.end:hover {
-    background-color: #727272;
-    color:white;
 }
