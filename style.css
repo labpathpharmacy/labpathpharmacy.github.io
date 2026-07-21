@@ -107,6 +107,7 @@ header .container {
 }
 .end:hover {
     background-color: #a3ccc4;
+    color:#727272
 }
 footer {
     background: #a3ccc4;
