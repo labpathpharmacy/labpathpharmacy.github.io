@@ -254,7 +254,6 @@ p{
     display: flex;  
 }
 .notice {
-    background: white;
     padding: 30px;
     border-radius: 8px;
     max-width: 450px;
