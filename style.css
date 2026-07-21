@@ -105,10 +105,6 @@ header .container {
     color: #666;
     font-size: 0.95rem;
 }
-.end:hover {
-    background-color: #a3ccc4;
-    color:#727272
-}
 footer {
     background: #a3ccc4;
     color: #fff;
@@ -251,6 +247,7 @@ p{
 }
 .pop-o.show {  
     display: flex;  
+    background-color: white;
 }
 .notice {
     padding: 30px;
@@ -270,6 +267,10 @@ p{
     display:flex; justify-content:center; align-items: center;
 }
 .lang:hover {
+    background-color: #a3ccc4;
+    color:#727272
+}
+.end:hover {
     background-color: #a3ccc4;
     color:#727272
 }
