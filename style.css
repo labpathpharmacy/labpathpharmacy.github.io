@@ -239,6 +239,7 @@ p{
     position: fixed;
     top: 0; left: 0;
     width: 100%; height: 100%;
+    background: rgba(0,0,0,0.7);
     display: none;
     justify-content: center;
     align-items: center;
@@ -247,9 +248,9 @@ p{
 }
 .pop-o.show {  
     display: flex;  
-    background-color: white;
 }
 .notice {
+    background: white;
     padding: 30px;
     border-radius: 8px;
     max-width: 450px;
@@ -266,7 +267,11 @@ p{
     border-radius: 20px;
     display:flex; justify-content:center; align-items: center;
 }
-.lang:hover, .end:hover {
+.lang:hover {
     background-color: #a3ccc4;
-    color:#727272;
+    color: #727272;
+}
+.end:hover {
+    background-color: #a3ccc4;
+    color: #727272;
 }
