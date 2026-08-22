@@ -1,7 +1,7 @@
 # 🌐 LabPath Website | Student-led Pharmacy Club
 
 <div style="line-height:2.0;">
-Welcome to the official repository of SED Science Club! LabPath a student-led organization dedicated to advancing interest and knowledge in the field of pharmacy and related sciences.
+Welcome to the official repository of LabPath! LabPath a student-led organization dedicated to advancing interest and knowledge in the field of pharmacy and related sciences.
 
 ## 🔭 About LabPath Pharmacy Club
  🎯 Value/Activity:  Our club emphasizes experiment-based learning, encouraging members to apply scientific concepts in practical settings. Through laboratory activities, research-oriented projects, and academic discussions, students develop a deeper understanding of how pharmaceutical science connects to health, medicine, and everyday life.
