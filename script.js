@@ -14,6 +14,16 @@ function closeAllSubMenus() {
         mb.style.color = '';
     }
 }
+function toggleMenu3() {
+    event.preventDefault(); 
+    const menu = document.querySelector('.mc3');
+    const button = document.getElementById('mb3');
+    if (menu.classList.contains('show-menu')) {
+        closeAllSubMenus();
+    }
+    menu.classList.toggle('show-menu');
+    toggleButtonText(button,'☰ 메뉴');
+}
 function toggleButtonText(button, originalText) {
     const openText = button.getAttribute('data-text-open');
     if (button.innerText === originalText) {
