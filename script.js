@@ -9,7 +9,7 @@ function closeAllSubMenus() {
         mb2.style.color = '';
     }
     if (mb) {
-        mb.innerText = 'Language/언어';
+        mb.innerText = 'Contact';
         mb.style.backgroundColor = '';
         mb.style.color = '';
     }
@@ -22,15 +22,7 @@ function toggleMenu3() {
         closeAllSubMenus();
     }
     menu.classList.toggle('show-menu');
-    toggleButtonText(button,'☰ 메뉴');
-}
-function toggleButtonText(button, originalText) {
-    const openText = button.getAttribute('data-text-open');
-    if (button.innerText === originalText) {
-        button.innerText = openText;
-    } else {
-        button.innerText = originalText;
-    }
+    toggleButtonText(button,'☰ Menu');
 }
 window.onclick = function(event) {
     if (!event.target.matches('.bc button')) {
