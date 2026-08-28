@@ -9,65 +9,9 @@ function closeAllSubMenus() {
         mb2.style.color = '';
     }
     if (mb) {
-        mb.innerText = 'Contact';
+        mb.innerText = 'Language/언어';
         mb.style.backgroundColor = '';
         mb.style.color = '';
-    }
-}
-function toggleMenu3() {
-    event.preventDefault(); 
-    const menu = document.querySelector('.mc3');
-    const button = document.getElementById('mb3');
-    if (menu.classList.contains('show-menu')) {
-        closeAllSubMenus();
-    }
-    menu.classList.toggle('show-menu');
-    toggleButtonText(button,'☰ Menu');
-}
-function toggleMenu4() {
-    event.preventDefault(); 
-    const menu = document.querySelector('.mc3');
-    const button = document.getElementById('mb3');
-    if (menu.classList.contains('show-menu')) {
-        closeAllSubMenus();
-    }
-    menu.classList.toggle('show-menu');
-    toggleButtonText(button,'☰ 메뉴');
-}
-function toggleMenu2() {
-    event.preventDefault();
-    event.stopPropagation();
-    const menu = document.getElementById('ddM2');
-    const button = document.getElementById('mb2');
-    if (!menu.classList.contains('show-menu')) {
-        closeAllSubMenus();
-        menu.classList.add('show-menu');
-        button.innerText = button.getAttribute('data-text-open');
-        button.style.backgroundColor = '#333333';
-        button.style.color = '#ffffff';
-    } else {
-        menu.classList.remove('show-menu');
-        button.innerText = 'Reports';
-        button.style.backgroundColor = '';
-        button.style.color = '';
-    }
-}
-function toggleMenu() {
-    event.preventDefault();
-    event.stopPropagation();
-    const menu = document.getElementById('ddM');
-    const button = document.getElementById('mb');
-    if (!menu.classList.contains('show-menu')) {
-        closeAllSubMenus();
-        menu.classList.add('show-menu');
-        button.innerText = button.getAttribute('data-text-open');
-        button.style.backgroundColor = '#333333';
-        button.style.color = '#ffffff';
-    } else {
-        menu.classList.remove('show-menu');
-        button.innerText = 'Contact';
-        button.style.backgroundColor = '';
-        button.style.color = '';
     }
 }
 function toggleButtonText(button, originalText) {
